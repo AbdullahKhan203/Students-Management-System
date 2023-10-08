@@ -98,33 +98,10 @@ const handleSubmit=async(e)=>{
                 </div>
                 </div>
                 
-
-
-                {/* <div className="card d-flex flex-column justify-content-between ">
-                <div id='content-row' className="row">
-                  <div id='title' className="col-12">Title</div>
-                  <div id='description' className="col-12">Content</div>
-                </div>
-                <div id='icon-row' className="row">
-                  <div id='icons' className="logo h-10">
-                    <div id='two-icons'>
-                      <button style={{border:'none',outline:'none',background:'none'}}><GrUpdate/></button>
-                      <button style={{border:'none',outline:'none',background:'none'}}><MdOutlineDelete/></button>
-                    </div>
-                  </div>
-                </div>
-                </div> */}
-                 
-                 
+             
             </div>
           </div>
         </div>
-
-
-        {/* <!-- Button trigger modal --> */}
-{/* <button className="btn btn-primary">
-  Launch demo modal
-</button> */}
 
 {/* <!-- Modal --> */}
 <div className="modal fade" id="addModal" >
@@ -148,20 +125,15 @@ const handleSubmit=async(e)=>{
     <input type="text" className="form-control" placeholder="Description" name='description' onChange={handleChange}/>
   </div>
   </div>
-  
-  {/* <div className="row">
-    <div className=" text-center">
-      <button className='btn btn-outline-success w-50'>Add User</button>
-    </div>
-  </div> */}
   </form>
-
         </div>
       </div>
+  
       <div className="modal-footer">
         <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
         <button type="button" className="btn btn-primary" onClick={handleSubmit}>Save changes</button>
       </div>
+
     </div>
   </div>
 </div>

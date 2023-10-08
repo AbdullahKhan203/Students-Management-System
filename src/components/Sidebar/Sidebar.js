@@ -36,7 +36,7 @@ const Sidebar = () => {
             {
               key: '1',
               icon: <AiOutlineDoubleRight />,
-              label: <Link  to={'/upcoming'} style={{textDecoration:'none'}}>Upcoming</Link>,
+              label: <Link  to={'/upcoming'} style={{textDecoration:'none'}}>Dashboard</Link>,
             },
             {
               key: '2',
@@ -56,8 +56,19 @@ const Sidebar = () => {
             {
               key: '5',
               icon: <TbBrandPagekit />,
-              label: <Link to={'/todos'} style={{textDecoration:'none'}}>Todos</Link>,
+              label: <Link to={'/todos'} style={{textDecoration:'none'}}>Students</Link>,
+            },
+            {
+              key: '6',
+              icon: <TbBrandPagekit />,
+              label: <Link to={'/courses'} style={{textDecoration:'none'}}>Courses</Link>,
+            },
+            {
+              key: '7',
+              icon: <TbBrandPagekit />,
+              label: <Link to={'/add-courses'} style={{textDecoration:'none'}}>AddCourses</Link>,
             }, 
+
           ]}
         />
         </div>
@@ -85,7 +96,7 @@ const Sidebar = () => {
               height: 64,
             }}
           />
-           <h1 className='text-center m-auto'>Header</h1>
+           <h1 className='text-center m-auto'>Attanance System</h1>
         </Header>
         <Content
           style={{

@@ -6,6 +6,8 @@ import Calender from './Calender/Calender'
 import UpComing from './Upcoming/Upcoming'
 import NoPage from './NoPage/NoPage'
 import Todos from './Todos/Todos'
+import Courses from './Courses'
+import AddCourses from './AddCourses'
 export default function Index() {
   return (
     <>
@@ -15,6 +17,8 @@ export default function Index() {
                 <Route path='/calender' element={<Calender/>} />
                 <Route path='/upcoming' element={<UpComing/>} />
                 <Route path='/todos' element={<Todos/>} />
+                <Route path='/courses' element={<Courses/>} />
+                <Route path='/add-courses' element={<AddCourses/>} />
                 <Route path='*' element={<NoPage/>} />
       </Routes>
     </>
